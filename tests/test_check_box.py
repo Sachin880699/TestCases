@@ -4,9 +4,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-import logging
 
-logger = logging.getLogger(__name__)
 
 @pytest.mark.usefixtures("driver_init")
 class TestCheckBox:
